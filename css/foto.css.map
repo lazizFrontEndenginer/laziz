@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": ";AAAA,AAAA,KAAK,CAAA;EACD,UAAU,EAAE,IAAI;EAChB,OAAO,EAAE,IAAI;EACb,GAAG,EAAE,IAAI;EACT,MAAM,EAAE,MAAM;EACd,SAAS,EAAE,IAAI;CAUlB;;AAfD,AAOQ,KAPH,CAMD,MAAM,CACF,KAAK,CAAA;EACD,gBAAgB,EAAE,8BAAiC;EACnD,eAAe,EAAE,KAAK;EACtB,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;CAEhB",
+    "sources": [
+        "../foto.scss"
+    ],
+    "names": [],
+    "file": "foto.css"
+}

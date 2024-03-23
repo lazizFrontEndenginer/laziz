@@ -1,0 +1,16 @@
+.foto{
+    margin-top: 20px;
+    display: flex;
+    gap: 30px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    .cards{
+        .card{
+            background-image: url("/картинки/photo\ \(8\).jpg");
+            background-size: cover;
+            width: 350px;
+            height: 350px;
+
+        }
+    }
+}

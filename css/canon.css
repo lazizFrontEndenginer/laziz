@@ -1,0 +1,119 @@
+.canon span {
+  color: #4F9C2C;
+}
+
+.canon .title {
+  margin-top: 75px;
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 111%;
+  text-transform: uppercase;
+  text-align: center;
+  color: #000;
+}
+
+.canon .taytl {
+  margin-top: 27px;
+  display: flex;
+  gap: 14px;
+  justify-content: center;
+}
+
+.canon .taytl .power_cards .power_card {
+  width: 358px;
+  height: 430px;
+  border: 2px solid #d8d5d5;
+}
+
+.canon .taytl .power_cards .power_card .kamera {
+  display: flex;
+}
+
+.canon .taytl .power_cards .power_card .kamera .photo {
+  margin: 29px 65px;
+}
+
+.canon .taytl .power_cards .power_card .kamera .card__icon {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+  margin-top: 15px;
+  position: relative;
+  left: -27px;
+}
+
+.canon .taytl .power_cards .power_card .card__info h2 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+}
+
+.canon .taytl .power_cards .power_card .card__info p {
+  margin-top: px;
+  text-align: center;
+  color: #75758A;
+  font-weight: 400;
+}
+
+.canon .taytl .power_cards .power_card .card__info .card__teg {
+  width: 100%;
+  border: 1px solid #EFEFEF;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.canon .taytl .power_cards .power_card .card__info .card__teg .card {
+  padding: 15px 9px;
+}
+
+.canon .taytl .power_cards .power_card .card__info .card__teg .card:not(:first-child) {
+  border-left: 1px solid #EFEFEF;
+}
+
+.canon .taytl .power_cards .power_card .card__info .card__bottom {
+  margin-top: 33px;
+  margin-bottom: 21px;
+}
+
+.canon .taytl .power_cards .power_card .card__info .card__bottom .bottom {
+  justify-content: center;
+  display: flex;
+  column-gap: 20px;
+}
+
+.canon .taytl .power_cards .power_card .card__info .card__bottom .bottom .bottom1 {
+  padding: 12px 25px;
+  border: 1px solid #c5c0c0;
+  border-radius: 100px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.canon .taytl .power_cards .power_card .card__info .card__bottom .bottom .bottom1:hover {
+  transition: 0.2s;
+  background: #4F9C2C;
+}
+
+.canon .taytl .power_cards .power_card .card__info .card__bottom .bottom .bottom2 {
+  background: linear-gradient(180deg, #8EE902 0%, #4F9C2C 100%);
+  border-radius: 100px;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 100px;
+  font-weight: 700;
+  font-size: 14px;
+  display: flex;
+  gap: 9px;
+  cursor: pointer;
+}
+
+.canon .taytl .power_cards .power_card .card__info .card__bottom .bottom .bottom2:hover {
+  background: #75758A;
+}
+/*# sourceMappingURL=canon.css.map */

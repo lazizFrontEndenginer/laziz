@@ -1,0 +1,17 @@
+.mels{
+    .container{
+        background-color: #EFEFEF;
+        .tecg{
+            align-items: center;
+            gap: 30px;
+            margin: 0px 150px;
+            width: 1110px;
+            height: 130px;
+            display: flex;
+            .svg__card{
+                display:flex;
+                gap: 20px;
+            }
+        }
+    }
+}

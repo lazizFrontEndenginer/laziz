@@ -1,0 +1,67 @@
+.poysk{
+    margin: 93px auto;
+    max-width: 570px;
+    justify-content: center;
+    .title{
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 111%;
+        text-transform: uppercase;
+        text-align: center;
+        color: #000;
+    }
+    .info__content{
+        margin-top: 24px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 26px;
+        text-align: center;
+        color: #75758A;
+        span{
+            color: black;
+        }
+    }
+    .card__button{
+        display: flex;
+        column-gap: 20px;
+        justify-content: center;
+        margin-top: 17px;
+        .botn2{
+            background: linear-gradient(180deg, #8EE902 0%, #4F9C2C 100%);
+            padding: 17px 54px;
+            border: 1px solid #c5c0c0;
+            border-radius: 100px;
+            font-weight: 700;
+            font-size: 14px;
+            text-transform: uppercase;
+            text-align: center;
+            color: #fff;
+            text-align: center;
+            cursor: pointer;
+            &:hover{
+                transition: 0.2s;
+                background: #75758A;
+                color: #fff;
+            }
+        }
+        .botn1{
+            background-color: #fff;
+            padding: 17px 54px;
+            border: 1px solid #c5c0c0;
+            border-radius: 100px;
+            font-weight: 700;
+            font-size: 14px;
+            text-transform: uppercase;
+            text-align: center;
+            color: #000;
+            text-align: center;
+            cursor: pointer;
+            &:hover{
+                transition: 0.2s;
+                background: #4F9C2C;
+                color: #000;
+            }
+        }
+    }
+}
